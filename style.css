@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #efebb2;
+  padding: 10px;
+  width: 960px;
+  height: 960px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.js-gridDiv {
+  background-color: #a5a5a5;
+  border: 1px solid black;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.js-row {
+  display: flex;
+  width: 100%;
+  flex: 1;
+}
+
+.hover {
+  background-color: black;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
